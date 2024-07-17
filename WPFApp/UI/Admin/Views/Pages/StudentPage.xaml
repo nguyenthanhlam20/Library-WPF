@@ -109,17 +109,17 @@
             <StackPanel VerticalAlignment="Center" DockPanel.Dock="Left" Orientation="Horizontal" >
 
                 <Label Foreground="{DynamicResource PrimaryTextColor}" Padding="0" Content="Display " FontSize="{DynamicResource textFontSize}" />
-                <Label Padding="0" FontSize="{DynamicResource textFontSize}" x:Name="lbFromIndex"  FontWeight="Black"
-                       
-                       Foreground="{DynamicResource PrimaryTextColor}" />
+                <Label Padding="0" FontSize="{DynamicResource textFontSize}" Content="{Binding Path=FromIndex}" FontWeight="Black"
+            
+            Foreground="{DynamicResource PrimaryTextColor}" />
                 <Label Padding="0" FontSize="{DynamicResource textFontSize}" Content=" - " Foreground="{DynamicResource PrimaryTextColor}" />
-                <Label Padding="0" FontSize="{DynamicResource textFontSize}" x:Name="lbToIndex" FontWeight="Black" 
-                       Foreground="{DynamicResource PrimaryTextColor}" />
-                <Label Padding="0" FontSize="{DynamicResource textFontSize}" Content="students &#xD;&#xA;" Foreground="{DynamicResource PrimaryTextColor}" />
+                <Label Padding="0" FontSize="{DynamicResource textFontSize}" Content="{Binding Path=ToIndex}" FontWeight="Black" 
+            Foreground="{DynamicResource PrimaryTextColor}" />
+                <Label Padding="0" FontSize="{DynamicResource textFontSize}" Content=" items " Foreground="{DynamicResource PrimaryTextColor}" />
                 <Label Padding="0" FontSize="{DynamicResource textFontSize}" Content="in total of " Foreground="{DynamicResource PrimaryTextColor}" />
-                <Label Padding="0" FontSize="{DynamicResource textFontSize}" x:Name="lbTotal" 
-                       FontWeight="Black" Foreground="{DynamicResource PrimaryTextColor}"/>
-                <Label Padding="0" FontSize="{DynamicResource textFontSize}" Content="students " Foreground="{DynamicResource PrimaryTextColor}" />
+                <Label Padding="0" FontSize="{DynamicResource textFontSize}" Content="{Binding Path=TotalItem}"
+            FontWeight="Black" Foreground="{DynamicResource PrimaryTextColor}"/>
+                <Label Padding="0" FontSize="{DynamicResource textFontSize}" Content=" items " Foreground="{DynamicResource PrimaryTextColor}" />
 
             </StackPanel>
             <StackPanel HorizontalAlignment="Right"   Orientation="Horizontal">

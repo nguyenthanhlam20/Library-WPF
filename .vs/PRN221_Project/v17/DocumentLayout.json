@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE1BE289-AD7D-4E49-BB4E-E8D3E8B9757F}|DataAccess\\DataAccess.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\dataaccess\\models\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE1BE289-AD7D-4E49-BB4E-E8D3E8B9757F}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\views\\pages\\studentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\views\\pages\\studentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\views\\pages\\historypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\views\\pages\\historypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\repositories\\students\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|solutionrelative:repositories\\students\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 70,
+          "SelectedChildIndex": 69,
           "Children": [
             {
               "$type": "Bookmark",
@@ -298,6 +302,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\StudentPage.xaml",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\Views\\Pages\\StudentPage.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\StudentPage.xaml",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\Views\\Pages\\StudentPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-17T15:59:33.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "HistoryPage.xaml",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\HistoryPage.xaml",
@@ -305,20 +321,20 @@
               "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\HistoryPage.xaml",
               "RelativeToolTip": "WPFApp\\UI\\Admin\\Views\\Pages\\HistoryPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-17T15:40:05.728Z",
+              "WhenOpened": "2024-07-17T15:59:21.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "History.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\DataAccess\\Models\\History.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Models\\History.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\DataAccess\\Models\\History.cs",
-              "RelativeToolTip": "DataAccess\\Models\\History.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "DocumentIndex": 2,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Students\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Students\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Students\\StudentRepository.cs",
+              "RelativeToolTip": "Repositories\\Students\\StudentRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAuwDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T15:39:02.421Z",
+              "WhenOpened": "2024-07-17T15:46:45.7Z",
               "EditorCaption": ""
             }
           ]
