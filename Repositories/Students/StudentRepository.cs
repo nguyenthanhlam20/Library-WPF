@@ -11,7 +11,7 @@ namespace Repositories
         {
             try
             {
-                using var _context = new CourseManagementDBContext();
+                using var _context = new LibraryManagementDBContext();
                 var nextId = _context.Students.Max(c => c.Id);
                 item.Id = nextId + 1;
                 _context.Students.Add(item);
@@ -25,7 +25,7 @@ namespace Repositories
 
         public async Task<List<Student>> GetAll()
         {
-            using var _context = new CourseManagementDBContext();
+            using var _context = new LibraryManagementDBContext();
             return await _context.Students.ToListAsync();
         }
 
@@ -33,7 +33,7 @@ namespace Repositories
         {
             try
             {
-                using var _context = new CourseManagementDBContext();
+                using var _context = new LibraryManagementDBContext();
                 var exist = await _context.Students.FirstOrDefaultAsync(x => x.Id == item.Id);
                 if (exist != null)
                 {

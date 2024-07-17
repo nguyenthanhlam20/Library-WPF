@@ -10,7 +10,7 @@ namespace Repositories
         {
             try
             {
-                using (var _context = new CourseManagementDBContext())
+                using (var _context = new LibraryManagementDBContext())
                 {
                     var nextId = _context.Books.Max(c => c.Id);
                     item.Id = nextId + 1;
@@ -26,7 +26,7 @@ namespace Repositories
 
         public async Task<List<Book>> GetAll()
         {
-            using var _context = new CourseManagementDBContext();
+            using var _context = new LibraryManagementDBContext();
             return await _context.Books.OrderByDescending(x => x.Id).ToListAsync();
         }
 
@@ -34,7 +34,7 @@ namespace Repositories
         {
             try
             {
-                using var _context = new CourseManagementDBContext();
+                using var _context = new LibraryManagementDBContext();
                 var exist = await _context.Books.FirstOrDefaultAsync(x => x.Id == item.Id);
                 if (exist != null)
                 {

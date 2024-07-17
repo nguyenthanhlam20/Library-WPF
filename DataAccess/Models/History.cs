@@ -18,7 +18,6 @@ namespace DataAccess.Models
             }
         }
 
-
         public virtual Book Book { get; set; } = null!;
         public virtual Student Student { get; set; } = null!;
     }

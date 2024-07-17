@@ -10,7 +10,7 @@ namespace Repositories
         {
             try
             {
-                using (var _context = new CourseManagementDBContext())
+                using (var _context = new LibraryManagementDBContext())
                 {
                     _context.Histories.Add(item);
                     await _context.SaveChangesAsync();
@@ -24,7 +24,7 @@ namespace Repositories
 
         public async Task<List<History>> GetAll()
         {
-            using var _context = new CourseManagementDBContext();
+            using var _context = new LibraryManagementDBContext();
             return await _context.Histories
                 .Include(x => x.Student)
                 .Include(x => x.Book)
@@ -33,7 +33,7 @@ namespace Repositories
 
         public async Task Update(History item)
         {
-            using var _context = new CourseManagementDBContext();
+            using var _context = new LibraryManagementDBContext();
             var exist = await _context.Histories
                 .FirstOrDefaultAsync(x => x.StudentId == item.StudentId
                 && x.BookId == item.BookId);

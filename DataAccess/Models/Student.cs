@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 
 namespace DataAccess.Models
 {
@@ -14,14 +13,6 @@ namespace DataAccess.Models
         public int Id { get; set; }
         public string? Name { get; set; }
         public DateTime? Birthdate { get; set; }
-
-        public string DateFormat
-        {
-            get
-            {
-                return Birthdate?.ToString() ?? "";
-            }
-        }
         public string? Gender { get; set; }
         public string? Address { get; set; }
         public string? City { get; set; }

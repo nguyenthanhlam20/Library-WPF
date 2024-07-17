@@ -29,7 +29,7 @@ namespace WPFApp.UI.Admin.ViewModels.Pages
         public void LoadYears()
         {
 
-            using (var context = new CourseManagementDBContext())
+            using (var context = new LibraryManagementDBContext())
             {
                 List<Student> accounts = context.Students.ToList();
                 var min = accounts.Min(o => o.Birthdate);
@@ -53,7 +53,7 @@ namespace WPFApp.UI.Admin.ViewModels.Pages
         {
 
             SeriesCollection = new LiveCharts.SeriesCollection();
-            using (var context = new CourseManagementDBContext())
+            using (var context = new LibraryManagementDBContext())
             {
 
                 List<Student> accounts = context.Students.Where(x => x.Birthdate!.Value.Year == currentYear).ToList();
