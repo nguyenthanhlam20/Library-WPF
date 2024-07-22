@@ -1,6 +1,7 @@
 ﻿using WPFApp.UI.Admin.Commands;
 using WPFApp.UI.Admin.ViewModels.Pages;
 using System.ComponentModel;
+using WPFApp.UI.Admin.Views.Pages;
 
 namespace WPFApp.UI.Admin.ViewModels
 {
@@ -19,7 +20,7 @@ namespace WPFApp.UI.Admin.ViewModels
         public ReplayCommand? OpenPage { get; set; }
 
 
-        public object _currentPage = new DashboardPage();
+        public object _currentPage = new StudentPage();
 
         public object CurrentPage
         {
@@ -32,7 +33,7 @@ namespace WPFApp.UI.Admin.ViewModels
             }
         }
 
-        public string _title = "Dashboard";
+        public string _title = "Students";
         public string Title
         {
             get { return _title; }
